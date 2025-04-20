@@ -18,3 +18,10 @@ class FuckYou(Scene):
 
         Fuck_You.set_color_by_gradient(RED, BLUE, GREEN, YELLOW, ORANGE, PURPLE)
         self.play(Write(Fuck_You))
+
+class SoStupid(Scene):
+    def construct(self):
+        URStupid = Text("You're So Stupid!")
+        URStupid.set_color(YELLOW_A)
+
+        self.play(Write(URStupid))
