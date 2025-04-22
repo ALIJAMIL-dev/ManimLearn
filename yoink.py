@@ -25,3 +25,13 @@ class SoStupid(Scene):
         URStupid.set_color(YELLOW_A)
 
         self.play(Write(URStupid))
+
+class Logo(Scene):
+    def construct(self):
+        suck= ImageMobject("download.png")
+
+        suck.scale(1.2)
+
+        suck.to_edge(RIGHT, buff=1)
+
+        self.add(suck)
